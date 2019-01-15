@@ -1,0 +1,11 @@
+
+div {
+    display: inline-block;
+}
+
+#header_div {
+    display: block;
+    border-bottom: 1px solid black;
+    margin: 0px 0px 20px 0px;
+    padding: 100px 100px 100px 100px;
+}
