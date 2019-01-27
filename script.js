@@ -29,7 +29,6 @@ function display_random_quote(){
                     quote_display_str = quote_display_str.concat("<br>")
                 }
             }
-            console.log(quote_display_str)
             document.getElementById("quote_div").innerHTML = quote_display_str;
         }
 
