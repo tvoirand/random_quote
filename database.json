@@ -1,0 +1,571 @@
+{
+    "quotes": [
+        {
+            "id": "1",
+            "date": "",
+            "author": "J. Ferrari",
+            "book": "Le sermon sur la chute de Rome",
+            "page": "136",
+            "edition": "",
+            "text": "Celui qui fuyait sa misère ne pouvait rien espérer d'autre que d'exercer son pouvoir inutile sur des hommes plus misérables que lui, avec l'acharnement impitoyable de ceux qui ont connu la misère et n'en supportent plus le spectacle écoeurant, et ne cessent d'en tirer vengeance dans la chair de ceux qui leur ressemblent trop."
+        },
+        {
+            "id": "2",
+            "date": "",
+            "author": "Ken Kesey",
+            "book": "Et quelque fois j'ai comme une grande idée",
+            "page": "102",
+            "edition": "",
+            "text": "Dans une relation, il faut avoir un système mutuellement compatible qui permette de se comprendre, faute de quoi la communication s'effondre comme la tour de Babel. J'avais établi une sorte de tradition théatrâle où il donnait la réplique posée à mon personnage. Dans ce cadre, protégés pas nos masques de comédie, nous avions pu approcher les vérités les plus personnelles l'un sur l'autre sans avoir à endurer la gêne que crée une telle intimité."
+        },
+        {
+            "id": "3",
+            "date": "",
+            "author": "W. Shakespeare",
+            "book": "Macbeth, acte IV scene III",
+            "page": "",
+            "edition": "",
+            "text": "Good God, betimes remove the means that makes us strangers!"
+        },
+        {
+            "id": "4",
+            "date": "",
+            "author": "Ken Kesey",
+            "book": "Et quelque fois j'ai comme une grande idée",
+            "page": "579",
+            "edition": "",
+            "text": "Si le livre ne s'ouvre jamais pour révéler son contenu, il peut se déformer pour finir par correspondre à l'image que s'en font les autres. Non, un livre n'était pas imperméable à l'influence que sa couverture pouvait avoir sur lui, absolument pas."
+        },
+        {
+            "id": "5",
+            "date": "",
+            "author": "Ken Kesey",
+            "book": "Et quelque fois j'ai comme une grande idée",
+            "page": "634",
+            "edition": "",
+            "text": "Elle ne se demandait pas juste où était passé son troupeau, non, elle voulait savoir où était passé le fleuve, et puis la berge, et absolument tout ce qui avait un rapport avec son existence. -Où est passé mon monde? Voilà ce qu'elle voulait savoir. -Et où suis-je, moi, si je ne peux pas le localiser? Elle avait perdu son chemin et elle survolait le fleuve, complètement déboussolée à la recherche de son monde."
+        },
+        {
+            "id": "6",
+            "date": "",
+            "author": "Ken Kesey",
+            "book": "Et quelque fois j'ai comme une grande idée",
+            "page": "885",
+            "edition": "",
+            "text": "Je me battais pour sauver ma peau. Pas seulement pour la sauver, ou la garder en bon état, mais pour me sentir bien dedans... pour être moi-même, gagner le droit d'être moi-même!"
+        },
+        {
+            "id": "7",
+            "date": "",
+            "author": "Ken Kesey",
+            "book": "Et quelque fois j'ai comme une grande idée",
+            "page": "886",
+            "edition": "",
+            "text": "Si j'avais assomé Hank pour de bon je n'aurais toujours rien prouvé sinon qu'il était assomé. Pas vaincu. Car il existe toujours un autre sanctuaire, une porte qui ne peut jamais être forcée, quelle que soit l'énergie qu'on y met, une ultime forteresse inviolable qui ne peut jamais être prise, quelle que soit l'attaque; on peut vous prendre votre voix électorale, votre nom, vos entrailles et même votre vie, mais cette ultime forteresse peut seulement capituler. Et l'amener à capituler pour une autre raison que l'amour, c'est amener l'amour à capituler."
+        },
+        {
+            "id": "8",
+            "date": "",
+            "author": "Bruce Alexander",
+            "book": "The Globalization of Addiction",
+            "page": "30",
+            "edition": "Oxford University Press, 2008",
+            "text": "Addiction gives a name to a basic fact of human psychology: human beings often undergo full psychological metamorphoses by becoming so involved with a new habit or pursuit that their involvement is comparable to voluntary slavery."
+        },
+        {
+            "id": "9",
+            "date": "",
+            "author": "Scénario et dialogues Jacques Davidts, réalisation Denis Villeneuve",
+            "book": "Polytechnique, 2009",
+            "page": "",
+            "edition": "",
+            "text": "Si j'ai un fils, je veux lui apprendre l'amour. Si j'ai une fille, je veux lui apprendre que le monde lui appartient."
+        },
+        {
+            "id": "10",
+            "date": "",
+            "author": "Aldous Huxley",
+            "book": "Les Portes de la Perception",
+            "page": "36",
+            "edition": "",
+            "text": "Voilà le genre de choses qu'il faudrait regarder. Des choses sans prétention, satisfaites d'être simplement elles-mêmes, suffisantes en leur réalité, ne jouant pas un rôle, n'essayant pas, d'une façon insensée, d''y aller' seules, isolées du Corps-Dharma, en un défi luciférien à la grâce de Dieu."
+        },
+        {
+            "id": "11",
+            "date": "",
+            "author": "William Wordsworth",
+            "book": "Ode: Intimations of Immortality from Recollections of Early Childhood",
+            "page": "",
+            "edition": "",
+            "text": "What though the radiance which was once so bright Be now for ever taken from my sight, Though nothing can bring back the hour, Of splendour in the grass, of glory in the flower; We will grieve not, rather find Strength in what remains behind, In the primal sympathy Which having been must ever be; In the soothing thoughts that spring Out of human suffering; In the faith that looks through death, In years that bring the philosophic mind."
+        },
+        {
+            "id": "12",
+            "date": "20160409",
+            "author": "Aldous Huxley",
+            "book": "Les portes de la Perception",
+            "page": "65",
+            "edition": "",
+            "text": "Il nous faut maintenant apprendre à manier les mots d'une façon efficace, mais, en même temps, il nous faut conserver, et au besoin intensifier, notre aptitude à regarder directement le monde, et non à travers ce milieu à demi opaque de concepts, qui déforme chaque fait donné à la ressemblance, hélas trop familière, de quelque étiquette générique ou abstraction explicative."
+        },
+        {
+            "id": "13",
+            "date": "20160509",
+            "author": "Paul Éluard",
+            "book": "Liberté",
+            "page": "",
+            "edition": "",
+            "text": "[...] Sur mes refuges détruits Sur mes phares écroulés Sur les murs de mon ennui J'écris ton nom Sur l'absence sans désir Sur la solitude nue Sur les marches de la mort J'écris ton nom [...]"
+        },
+        {
+            "id": "14",
+            "date": "20161114",
+            "author": "Hermann Hesse",
+            "book": "La Conversion de Casanova, L'Hôtel de Ville",
+            "page": "95",
+            "edition": "",
+            "text": "[Nous devons] tous, chacun dans son domaine, essayer d'agir sur notre temps et sur notre milieu en vue de les rajeunir, de les illustrer et de créer quelque chose de nouveau; nous voulons en outre, dans la mesure de nos forces, aider à l'épanouissement d'un nouvelle culture, plus noble et plus raffinée que la nôtre et travailler à l'ennoblissement de la vie."
+        },
+        {
+            "id": "15",
+            "date": "",
+            "author": "Hermann Hesse",
+            "book": "La Conversion de Casanova  Randonnée d'Automne, Promenade Matinale",
+            "page": "149",
+            "edition": "",
+            "text": "Ce qui me frappe toujours comme un phénomène étrange, inconcevable et plus exaltant que tous les faits du jour et que toutes les interrogations de l'esprit humain, c'est ceci: comment se fait-il qu'un montagne se dresse dans le ciel, que les airs reposent, silencieux, au fond d'une vallée, que les feuilles jaunies du bouleau quittent leur branche et que des nuées d'oiseaux voyagent dans l'immensité bleue du ciel? L'éternelle énigme de l'univers vous pénètre alors avec tant de douceur, elle vous inspire une telle humilité que l'on abandonne tout l'orgueil avec lequel on disserte habituellement de l'inexplicable; on ne se sent nullement accablé, au contraire, on accueille toute chose avec gratitude, on éprouve à la fois un sentiment de modestie et de fierté à l'idée d'être l'hôte de l'univers."
+        },
+        {
+            "id": "16",
+            "date": "",
+            "author": "Hermann Hesse",
+            "book": "La Conversion de Casanova, Taedium Vitae, extrait de die Erzählungen",
+            "page": "209",
+            "edition": "",
+            "text": "Il me fit l'impression d'un homme qui avait oublié ou surmonté les ténèbres et les orages de la vie et qui menait une existence paisible et honnête."
+        },
+        {
+            "id": "17",
+            "date": "",
+            "author": "Guns",
+            "book": "Tags and Throws, Bombing with Guns",
+            "page": "2:55",
+            "edition": "",
+            "text": "Writing is a form of therapy. Sometimes I wonder how all those who do not write, compose or paint can manage to escape the madness, melancholia, panic, and fear, which is inherent in a human situation."
+        },
+        {
+            "id": "18",
+            "date": "",
+            "author": "Guns",
+            "book": "Tags and Throws, Bombing with Guns",
+            "page": "8:48",
+            "edition": "",
+            "text": "Art never responds to the wish to make it democratic. It is not for everybody. It is only for those who are willing to undergo the effort needed to understand it."
+        },
+        {
+            "id": "19",
+            "date": "",
+            "author": "André Malraux",
+            "book": "La Condition Humaine",
+            "page": "57",
+            "edition": "",
+            "text": "Les hommes ne sont pas mes semblables, ils sont ceux qui me regardent et me jugent; mes semblables, ce sont ceux qui m'aiment et ne me regardent pas, qui m'aiment contre tout, qui m'aiment contre la déchéance, contre la bassesse, contre la trahison, moi et non ce que j'ai fait ou ferai, qui m'aimeraient tant que je m'aimerais moi-même - jusqu'au suicide, compris... Avec elle seule j'ai en commun cet amour déchiré ou non, comme d'autres ont, ensemble, des enfants malades et qui peuvent mourir..."
+        },
+        {
+            "id": "20",
+            "date": "",
+            "author": "Jacques Prévert",
+            "book": "Paroles, Tentative de Description d'un Dîner de Têtes à Paris-France",
+            "page": "12",
+            "edition": "",
+            "text": "Mais je ne vous ai pas demandé de penser, je vous ai dit de regarder, d'écouter, pour vous habituer, pour n'être pas surpris d'entendre craquer vos billards le jour où les vrais éléphants viendront reprendre leur ivoire."
+        },
+        {
+            "id": "21",
+            "date": "",
+            "author": "Jacques Prévert",
+            "book": "Paroles, Tentative de Description d'un Dîner de Têtes à Paris-France",
+            "page": "15",
+            "edition": "",
+            "text": "Ceux qui ont le pain quotidien relativement hebdomadaire."
+        },
+        {
+            "id": "22",
+            "date": "",
+            "author": "André Malraux",
+            "book": "La Condition Humaine",
+            "page": "142",
+            "edition": "",
+            "text": "L'extrême densité d'un homme prend quelque chose d'inhumain, pensa Kyo en le regardant. Est-ce parce que nous nous sentons facilement en contact par nos faiblesses?"
+        },
+        {
+            "id": "23",
+            "date": "",
+            "author": "André Malraux",
+            "book": "La Condition Humaine",
+            "page": "150",
+            "edition": "",
+            "text": "Il avait assez écouté son père pour savoir que celui qui cherche aussi âprement l'absolu ne le trouve que dans la sensation. Soif d'absolu, soif d'immortalité, donc peur de mourir. Tchen eût dû être lâche; mais il sentait, comme tout mystique, que son absolu ne pouvait être saisi que dans l'instant. D'où sans doute son dédain de tout ce qui ne tendait pas à l'instant qui le lierait à lui-même dans une possession vertigineuse."
+        },
+        {
+            "id": "24",
+            "date": "",
+            "author": "André Malraux",
+            "book": "La Condition Humaine",
+            "page": "226",
+            "edition": "",
+            "text": "On ne connait jamais un être, mais on cesse parfois de sentir qu'on l'ignore."
+        },
+        {
+            "id": "25",
+            "date": "",
+            "author": "\n            Series creators Jonathan Nolan and Lisa Joy, Episode director Richard J. Lewis\n        ",
+            "book": "Westworld, Season 1 Episode 2",
+            "page": "",
+            "edition": "",
+            "text": "They come back because of the subtleties, the details. They come back because they discover something they imagine no one had ever noticed before, something they have fallen in love with. They are not looking for a story that tells them who they are. They already know who they are. They're here because they want a glimpse of who they could be."
+        },
+        {
+            "id": "26",
+            "date": "",
+            "author": "Acharya Rajneesh (Osho)",
+            "book": "Man of No Ego - Blinkers Removed - Tara",
+            "page": "",
+            "edition": "",
+            "text": "Everything that is, is now. Everything that is alive, is now alive. Now is the only time, the only eternity."
+        },
+        {
+            "id": "27",
+            "date": "20161214",
+            "author": "Pierre Gaufre",
+            "book": "Une Nuit de Rave",
+            "page": "",
+            "edition": "",
+            "text": "Après avoir trimé la semaine au sein d'une société jugée déplaisante, la free party est une bulle éphémère dans laquelle la musique, la danse et les rencontres permettent d'exorciser la morosité et l'amertume accumulés."
+        },
+        {
+            "id": "28",
+            "date": "",
+            "author": "Bernhard Schlink",
+            "book": "Le Liseur",
+            "page": "100",
+            "edition": "",
+            "text": "Ne plus humilier ni me laisser humilier, après Hanna, ne plus rendre coupable ni me sentir coupable, ne plus aimer personne au point que sa perte fasse mal: voilà ce qu'à l'époque, sans le penser clairement, j'ai très résolument ressenti."
+        },
+        {
+            "id": "29",
+            "date": "",
+            "author": "Pascal Signolet",
+            "book": "Free Party, en deçà du Bien et du Mal",
+            "page": "",
+            "edition": "",
+            "text": "C'est une musique qui n'a pas de frontière. Elle réunit tout le monde. Elle réunit les rénégats, les obstinés, les impénitents, les gens qui ne se satisfont pas de ce qu'on leur propose."
+        },
+        {
+            "id": "30",
+            "date": "",
+            "author": "Jean-Philippe Jaworski",
+            "book": "Même pas mort (Rois du Monde, 1)",
+            "page": "242",
+            "edition": "",
+            "text": "Le barde, à peine visible dans le rougeoiement des braises, devenait alors un enchanteur qui convoquait autour de nous des festins, des armées, des monstres et des divinités. Quand il se taisait, la maison d'Attegia était pleine à craquer de musique, de présences et de drames, et nous avions l'âme transportée par un sentiment plus grand que nous."
+        },
+        {
+            "id": "31",
+            "date": "",
+            "author": "Jean-Philippe Jaworski",
+            "book": "Janua Vera, Le Conte de Suzelle",
+            "page": "329",
+            "edition": "",
+            "text": "Sourde au village qui s'éveillait, elle ramenait avec elle une grande brassée de désillusions, de rêves fanés, de perspectives vides. Même la souffrance s'était émoussée; elle découvrait que la résignation avait un goût d'indifférence."
+        },
+        {
+            "id": "32",
+            "date": "",
+            "author": "Series Creators David Benioff and D. B. Weiss, Episode Director Mark Mylod",
+            "book": "Game Of Thrones, Season 7 Episode 3, 43:00",
+            "page": "",
+            "edition": "",
+            "text": "Don't fight in the North, or the South. Fight every battle, everywhere, always, in your mind. Everyone is your enemy, everyone is your friend, every possible series of events is happening all at once. Live that way and nothing will surprise you. Everything that happens will be something that you've seen before."
+        },
+        {
+            "id": "33",
+            "date": "",
+            "author": "Hermann Hesse",
+            "book": "Le Jeu des Perles de Verre",
+            "page": "99",
+            "edition": "",
+            "text": "La musique classique est un geste qui signifie: je sais le tragique de la condition humaine, je me rallie à la cause du destin humain, de la vaillance, de la sérénité!"
+        },
+        {
+            "id": "34",
+            "date": "",
+            "author": "Milan Kundera",
+            "book": "L'Insoutenable Légèreté de l'être",
+            "page": "28",
+            "edition": "",
+            "text": "L'amour ne se manifeste pas par le désir de faire l'amour (ce désir s'applique à une innombrable multitude de femmes) mais par le désir du sommeil partagé (ce désir ne concerne qu'une seule femme)."
+        },
+        {
+            "id": "35",
+            "date": "",
+            "author": "Milan Kundera",
+            "book": "L'Insoutenable Légèreté de l'être",
+            "page": "77",
+            "edition": "",
+            "text": "Seul le hasard peut nous apparaître comme un message. Ce qui arrive par nécéssité, ce qui est attendu et se répète quotidiennement n'est que chose muette. Seul le hasard est parlant. On tente d'y lire comme les gitanes lisent au fond d'une tasse dans les figures qu'a dessinées le marc de café."
+        },
+        {
+            "id": "35",
+            "date": "",
+            "author": "Milan Kundera",
+            "book": "L'Insoutenable Légèreté de l'être",
+            "page": "239",
+            "edition": "",
+            "text": "C'est à cela que ressemble, Tereza le sait, l'instant où naît l'amour: la femme ne résiste pas à la voix qui appelle son âme épouvantée, l'homme ne résiste pas à la femme dont l'âme devient attentive à sa voix."
+        },
+        {
+            "id": "36",
+            "date": "",
+            "author": "Milan Kundera",
+            "book": "L'Insoutenable Légèreté de l'être",
+            "page": "256",
+            "edition": "",
+            "text": "Le fleuve coule de siècle en siècle et les histoires des hommes ont lieu sur la rive. Elles ont lieu pour être oubliées demain et que le fleuve n'en finisse pas de couler."
+        },
+        {
+            "id": "37",
+            "date": "",
+            "author": "Milan Kundera",
+            "book": "L'Insoutenable Légèreté de l'être",
+            "page": "431",
+            "edition": "",
+            "text": "La vraie bonté de l'homme ne peut se manifester en toute pureté et en toute liberté qu'à l'égard de ceux qui ne représentent aucune force. Le véritable test moral de l'humanité, [...] ce sont ses relations avec ceux qui sont à sa merci: les animaux."
+        },
+        {
+            "id": "38",
+            "date": "",
+            "author": "Alfred de Musset",
+            "book": "On ne badine pas avec l'amour",
+            "page": "70",
+            "edition": "",
+            "text": "Perdican: Voilà donc ma chère vallée ! Le Choeur: On nous a dit que vous êtes un savant Monseigneur. Perdican: Oui, on me l'a dit aussi. Les sciences sont une belle chose, mes enfants ; ces arbres et ces prairies enseignent à haute voix la plus belle de toutes, l'oubli de ce qu'on sait."
+        },
+        {
+            "id": "70",
+            "date": "",
+            "author": "J. R. R. Tolkien",
+            "book": "The Lord of the Rings",
+            "page": "458",
+            "edition": "",
+            "text": "\"Here is the heart of Elvendom on earth\", he said, \"and here my heart dwells ever, unless there be a light beyond the dark roads that we still must tread, you an I. Come with me!\" And taking Frodo's hand in his, he left the hill of Cerin Amroth and came never again as living man."
+        },
+        {
+            "id": "71",
+            "date": "",
+            "author": "J. R. R. Tolkien",
+            "book": "The Lord of the Rings",
+            "page": "931",
+            "edition": "",
+            "text": "The brave things in the old tales and songs, Mr. Frodo: adventures, as I used to call them. I used to think that they were things the wonderful folk of the stories went out and looked for, because they wanted them, because they were exciting and life was a bit dull, a kind of sport, as you might say. But that's not the way of it with the tales that really mattered, or the ones that stay in the mind. Folk seem to have been just landed in them, usually - their path were laid that way, as you put it."
+        },
+        {
+            "id": "72",
+            "date": "",
+            "author": "Romain Gary",
+            "book": "La Vie devant soi",
+            "page": "177",
+            "edition": "",
+            "text": "Monsieur Waloumba dit que les jeunes ont besoin de tribus car sans ça ils deviennent une goutte d'eau à la mer et ça les rend dingues."
+        },
+        {
+            "id": "73",
+            "date": "",
+            "author": "Romain Gary",
+            "book": "La Vie devant soi",
+            "page": "236",
+            "edition": "",
+            "text": "Vous feriez une bonne action et vous avorteriez madame Rosa tout de suite pour la sauver de la vie qui lui a été foutue au cul par un père qu'on connait même pas et qui n'a même pas de visage tellement il se cache et il n'est même pas permis de le représenter parce qu'il a toute une maffia pour l'empêcher de se faire prendre."
+        },
+        {
+            "id": "74",
+            "date": "20180502",
+            "author": "Jean-Philippe Jaworski",
+            "book": "Chasse Royale I (Rois du Monde, 2)",
+            "page": "165",
+            "edition": "",
+            "text": "Quand tu deviens un homme fait, Bellovèse, tu peux te gagner des amis sages, des amis utiles, peut-être même des amis désintéressés ou secourables: mais nul ne sera plus proche de toi que celui avec lequel tu as grandi."
+        },
+        {
+            "id": "75",
+            "date": "20180623",
+            "author": "Albert Camus",
+            "book": "L'Été",
+            "page": "53",
+            "edition": "",
+            "text": "Notre tâche d'homme est de trouver les quelques formules qui apaiseront l'angoisse infinie des âmes libres."
+        },
+        {
+            "id": "76",
+            "date": "20180923",
+            "author": "Philip K. Dick",
+            "book": "Do Androids Dream of Electric Sheep?",
+            "page": "34",
+            "edition": "",
+            "text": "The tyranny of an object, he thought. It doesn't know I exist. Like the androids, it had no ability to appreciate the existence of another."
+        },
+        {
+            "id": "77",
+            "date": "20181018",
+            "author": "A. Jollien",
+            "book": "Le Philosophe nu",
+            "page": "80",
+            "edition": "",
+            "text": "[...] Une demi-heure de promenade en essayant de pratiquer la non-dualité: marcher comme si je n'étais que deux jambes, voir le frêre qui pêle la neige comme si j'étais le frère qui pêle la neige, contempler le cèdre comme si j'étais le cèdre, n'être qu'une grande oreille, qu'un grand oeil. [...] Bref, je fais éclater les distances qui me séparent du monde, les barrières intérieures qui me coupent de la réalité pour épouser le réel, sans le juger. Comme dit Sekkei Harada, il s'agit aussi de pratiquer \"jusqu'à ce qu'il n'y ait plus la moindre marge où la pensée puisse s'introduire\". S'absorber dans ce que je perçois pour oublier le moi."
+        },
+        {
+            "id": "78",
+            "date": "",
+            "author": "A. Jollien",
+            "book": "Le Philosophe nu",
+            "page": "87",
+            "edition": "",
+            "text": "Résumons: quand ça va mal, comme dans la joie d'ailleurs, retourner au présent, y puiser mille ressources, quitter la rêverie permanente qui m'arrache du monde et me plonge si souvent dans l'insatisfaction."
+        },
+        {
+            "id": "79",
+            "date": "",
+            "author": "I. Asimov",
+            "book": "Fondation I",
+            "page": "55",
+            "edition": "Folio SF, Edition Denoel 2006",
+            "text": "La chute d'un empire, messieurs, est un évenement considérable, fort difficile à combattre. Elle est la conséquence inévitable du développement de la bureaucratie, de la disparition de l'esprit d'initiative, du durcissement du régime des castes, de la perte du sentiment de curiosité... de mille autres causes possibles et imaginables."
+        },
+        {
+            "id": "80",
+            "date": "",
+            "author": "A. Murakami",
+            "book": "Le Meurtre du Commandeur, Livre I, Une Idée apparaît",
+            "page": "106",
+            "edition": "Belfond, 2018",
+            "text": "Comme un lecteur zélé qui recopie sur un cahier, sans y changer une virgule, soigneusement, un extrait qu'il aime d'un livre."
+        },
+        {
+            "id": "81",
+            "date": "20190130",
+            "author": "Réalisation et scénario Naomi Kawase",
+            "book": "Les Délices de Tokyo",
+            "page": "",
+            "edition": "",
+            "text": "Vous savez, patron, ce jour là, la pleine lune m'a murmuré ceci: je voulais que tu me regardes, c'est pour ça que je brille. Vous savez, patron, nous somme nés pour regarder et écouter ce monde. Alors, même sans réussir dans la vie, nous pouvons trouver un sens à notre existence."
+        },
+        {
+            "id": "82",
+            "date": "20190225",
+            "author": "Leeroy Pollock",
+            "book": "American Letters 1927-1947: Jackson Pollock and Family",
+            "page": "",
+            "edition": "",
+            "text": "Well Jack I was glad to learn how you felt about your summer's work and your coming school year. The secret of success is concentrating interest in life, interest in sports and good times, interest in your studies, interest in our fellow students, interest in the small things of nature, insects, birds, flowers, leaves, etc. In other words to be fully awake to everything about you and the more you learn the more you can appreciate and get a full measure of joy and happiness out of life."
+        },
+        {
+            "id": "83",
+            "date": "20190331",
+            "author": "Aldous Huxley",
+            "book": "Le meilleur des mondes",
+            "page": "110",
+            "edition": "Pocket 2005",
+            "text": "Je désire contempler la mer en paix. Cela me donne la sensation... Il hésita, cherchant les mots pour s'exprimer... La sensation d'être d'avantage moi, si vous comprenez ce que je veux dire. D'agir d'avantage par moi-même, et non pas si complètement comme une partie d'autre chose. De n'être pas simplement une cellule du corps social."
+        },
+        {
+            "id": "84",
+            "date": "20190331",
+            "author": "Aldous Huxley",
+            "book": "Le meilleur des mondes",
+            "page": "153",
+            "edition": "Pocket 2005",
+            "text": "Traître, débauché, scélérat sans remords et sans bonté. Que signifiaient au juste ces mots? Il ne le savait qu'à moitié. Mais leur magie était puissante et continuait à gronder dans sa tête, et ce fut, sans qu'il sût comment, comme s'il n'avait pas réellement détesté Popé auparavant; comme s'il ne l'avait jamais véritablement détesté, parce qu'il n'avait jamais pu dire à quel point il le détestait."
+        },
+        {
+            "id": "85",
+            "date": "20190407",
+            "author": "Aldous Huxley",
+            "book": "Le meilleur des mondes",
+            "page": "244",
+            "edition": "Pocket 2005",
+            "text": "C'est là la rançon dont il nous faut payer la stabilité. Il faut choisir entre le bonheur et ce qu'on appelait autrefois le grand art. Nous avons sacrifié le grand art."
+        },
+        {
+            "id": "86",
+            "date": "20190407",
+            "author": "Aldous Huxley",
+            "book": "Le meilleur des mondes",
+            "page": "245",
+            "edition": "Pocket 2005",
+            "text": "Le bohneur effectif paraît toujours assez sordide en comparaison des larges compensations qu'on trouve à la misère. Et il va de soi que la stabilité, en tant que spectacle, n'arrive pas à la cheville de l'instabilité. Et le fait d'être satisfait n'a rien du charme magnétique d'une bonne lutte contre le malheur, rien du pittoresque d'un combat contre la tentation, ou d'une défaite fatale sous les coups de la passion ou du doute. Le bonheur n'est jamais grandiose."
+        },
+        {
+            "id": "87",
+            "date": "20190407",
+            "author": "Aldous Huxley",
+            "book": "Le meilleur des mondes",
+            "page": "249",
+            "edition": "Pocket 2005",
+            "text": "C'est là un autre article au passif de la stabilité. Ce n'est pas seulement l'art qui est incompatile avec le bonheur il y a aussi la science. La science est dangereuse, nous sommes obligés de la tenir bien soigneusement enchaînée et muselée."
+        },
+        {
+            "id": "88",
+            "date": "20190604",
+            "author": "Stephen King",
+            "book": "Pet Sematary",
+            "page": "435",
+            "edition": "Hodder paperback 2011",
+            "text": "On the few occasions since her pre-teenage years when she had been awake and alone at dawn without some responsibility to fulfil as the reason, she had a lonely but somehow uplifted feeling - a paradoxical sense of newness and continuity."
+        },
+        {
+            "id": "89",
+            "date": "20190604",
+            "author": "J. R. R. Tolkien",
+            "book": "The Silmarillion",
+            "page": "8",
+            "edition": "Harper Collins paperback 1999",
+            "text": "But the delight and pride of Aulë is in the deed of making, and in the thing made, and neither in possession nor in his own mastery ; wherefore he gives and hoards not, and is free from care, passing ever on to some new work."
+        },
+        {
+            "id": "90",
+            "date": "20190821",
+            "author": "J. R. R. Tolkien",
+            "book": "The Silmarillion",
+            "page": "362",
+            "edition": "Harper Collins paperback 1999",
+            "text": "'Many are the strange chances of the world,' said Mithrandir, 'and help oft shall come from the hands of the weak when the Wise falter'."
+        },
+        {
+            "id": "91",
+            "date": "20190821",
+            "author": "Jean-Philippe Jaworski",
+            "book": "Même pas mort (Rois du Monde, 1)",
+            "page": "14",
+            "edition": "Folio SF poche",
+            "text": "Le monde est une mélopée infiniment morne et infiniment multiple, le monde est un chemin aux horizons sans cesse recomposés, le monde est un royaume taillé dans la matière même du rêve. C'est une merveille; une merveille indifférente, qui m'a appris la saveur de l'angoisse."
+        },
+        {
+            "id": "92",
+            "date": "20190906",
+            "author": "Jean-Philippe Jaworski",
+            "book": "Même pas mort (Rois du Monde, 1)",
+            "page": "162",
+            "edition": "Folio SF poche",
+            "text": "Mon attention flottait; mes sens s'ouvraient aux réalités supérieures. Je me détachait des illusions des hommes: je ne percevais plus la fête, autour de moi, de façon continue. Je découvrais une succession d'instants, plus ou moins consécutifs, et je devinais qu'il s'agissait de la réalité cachée du monde, de l'univers enfanté et neuf à chacune des contractions de la Déesse."
+        },
+        {
+            "id": "93",
+            "date": "20190915",
+            "author": "Jean-Philippe Jaworski",
+            "book": "Même pas mort (Rois du Monde, 1)",
+            "page": "223",
+            "edition": "Folio SF poche",
+            "text": "Je suis comme tous les déplacés: j'apprends le délice amer de la nostalgie."
+        }
+    ]
+}
