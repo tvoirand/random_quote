@@ -2,6 +2,9 @@
 Script for random_quote.
 */
 
+import { draw_words } from "./modules/vjing.js";
+
+// run display_random_quote function when page is loaded
 document.getElementById("index_body").onload = display_random_quote();
 
 function display_random_quote() {
@@ -65,3 +68,39 @@ function display_random_quote() {
         }
     };
 }
+
+// creating processing sketch for the VJing part
+// global variables
+const canvas_width = 400;
+const canvas_height = 300;
+const s = sketch => {
+    /*
+    Function which takes a "sketch" object as argument and attaches properties such as setup and
+    draw functions which are needed for a p5js sketch.
+    See: https://github.com/processing/p5.js/wiki/Global-and-instance-mode
+    */
+
+    sketch.setup = function() {
+        /*
+        Processing setup function.
+        Called one time at start.
+        */
+        let canvas = sketch.createCanvas(canvas_width, canvas_height);
+        canvas.parent(canvas_div);
+        sketch.stroke(255);
+    };
+
+    sketch.draw = function() {
+        /*
+        Processing main loop function.
+        */
+
+        // initialisation
+        sketch.background(0);
+        // translate(width / 2, height / 2);
+        // background(0);
+
+        draw_words(sketch);
+    };
+};
+let myp5 = new p5(s);
