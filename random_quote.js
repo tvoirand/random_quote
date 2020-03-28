@@ -3,70 +3,78 @@ Script for random_quote.
 */
 
 import { draw_words } from "./modules/vjing.js";
+import { xhr_success, xhr_error, load_file } from "./modules/utils.js";
 
-// run display_random_quote function when page is loaded
-document.getElementById("index_body").onload = display_random_quote();
+// load quotes database and fill quote div when page is loaded
+document.getElementById("index_body").onload = load_file(
+    "database.json",
+    fill_quote_div
+);
 
-function display_random_quote() {
-    `
-    Open quotes database json file, read it, and display a random quote.
-    `;
+function fill_quote_div() {
+    /*
+    Callback function for a quotes database reading XHR request to fill quote_div with a quote.
+    */
 
-    // load the database file
-    var xhttp_request = new XMLHttpRequest();
-    xhttp_request.open("GET", "database.json", true);
-    xhttp_request.send();
+    // store the json database in an array of javascript objects
+    let quotes_array = JSON.parse(this.responseText).quotes;
 
-    xhttp_request.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            // store the json database in an array of javascript objects
-            let quotes_array = JSON.parse(this.responseText).quotes;
+    // pick a random quote
+    let quote = pick_random_quote(quotes_array);
 
-            // pick a random quote
-            let id = Math.floor(Math.random() * quotes_array.length);
-            let quote = quotes_array[id];
+    // fill the quote div
+    document.getElementById("quote_div").innerHTML = quote;
+}
 
-            // initiate the string to display
-            let display_string = "";
+function pick_random_quote(quotes_array) {
+    /*
+    Pick a random quote from a quote array.
+    Input:
+        -quotes_array   [{author: str, book: str, edition: str, page: str, text: str}, ...]
+    */
 
-            // add author
-            if (quote.author !== null && quote.author !== "") {
-                display_string = display_string.concat(quote.author);
-                display_string = display_string.concat("<br>");
-            }
+    // pick a random quote
+    let id = Math.floor(Math.random() * quotes_array.length);
+    let quote = quotes_array[id];
 
-            // add book
-            if (quote.book !== null && quote.book !== "") {
-                display_string = display_string.concat(quote.book);
-                display_string = display_string.concat("<br>");
-            }
+    // initiate the string to display
+    let output_string = "";
 
-            // add edition and page only if both are available
-            if (
-                quote.edition !== null &&
-                quote.edition !== "" &&
-                quote.page !== null &&
-                quote.page !== ""
-            ) {
-                display_string = display_string.concat("Edition ");
-                display_string = display_string.concat(quote.edition);
-                display_string = display_string.concat("<br>");
-                display_string = display_string.concat("Page ");
-                display_string = display_string.concat(quote.page);
-                display_string = display_string.concat("<br>");
-            }
+    // add author
+    if (quote.author !== null && quote.author !== "") {
+        output_string = output_string.concat(quote.author);
+        output_string = output_string.concat("<br>");
+    }
 
-            // add text
-            if (quote.text !== null && quote.text !== "") {
-                display_string = display_string.concat("<br>");
-                display_string = display_string.concat(quote.text);
-                display_string = display_string.concat("<br>");
-            }
+    // add book
+    if (quote.book !== null && quote.book !== "") {
+        output_string = output_string.concat(quote.book);
+        output_string = output_string.concat("<br>");
+    }
 
-            // add display string to html
-            document.getElementById("quote_div").innerHTML = display_string;
-        }
-    };
+    // add edition and page only if both are available
+    if (
+        quote.edition !== null &&
+        quote.edition !== "" &&
+        quote.page !== null &&
+        quote.page !== ""
+    ) {
+        output_string = output_string.concat("Edition ");
+        output_string = output_string.concat(quote.edition);
+        output_string = output_string.concat("<br>");
+        output_string = output_string.concat("Page ");
+        output_string = output_string.concat(quote.page);
+        output_string = output_string.concat("<br>");
+    }
+
+    // add text
+    if (quote.text !== null && quote.text !== "") {
+        output_string = output_string.concat("<br>");
+        output_string = output_string.concat(quote.text);
+        output_string = output_string.concat("<br>");
+    }
+
+    return output_string;
 }
 
 // creating processing sketch for the VJing part
