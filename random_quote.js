@@ -22,21 +22,6 @@ function fill_quote_div() {
     // pick a random quote
     let quote = pick_random_quote(quotes_array);
 
-    // fill the quote div
-    document.getElementById("quote_div").innerHTML = quote;
-}
-
-function pick_random_quote(quotes_array) {
-    /*
-    Pick a random quote from a quote array.
-    Input:
-        -quotes_array   [{author: str, book: str, edition: str, page: str, text: str}, ...]
-    */
-
-    // pick a random quote
-    let id = Math.floor(Math.random() * quotes_array.length);
-    let quote = quotes_array[id];
-
     // initiate the string to display
     let output_string = "";
 
@@ -74,7 +59,38 @@ function pick_random_quote(quotes_array) {
         output_string = output_string.concat("<br>");
     }
 
-    return output_string;
+    // fill the quote div
+    document.getElementById("quote_div").innerHTML = output_string;
+}
+
+function pick_random_quote(quotes_array) {
+    /*
+    Pick a random quote from a quote array.
+    Input:
+        -quotes_array   [{author: str, book: str, edition: str, page: str, text: str}, ...]
+    */
+
+    // pick a random quote
+    let id = Math.floor(Math.random() * quotes_array.length);
+
+    return quotes_array[id];
+}
+
+function draw_quote(sketch) {
+    /*
+    Callback function for a quotes database reading XHR request to draw a quote on a p5js sketch.
+    Input:
+        -sketch     p5js sketch
+    */
+
+    // store the json database in an array of javascript objects
+    let quotes_array = JSON.parse(this.responseText).quotes;
+
+    // pick a random quote
+    let quote = pick_random_quote(quotes_array);
+
+    // draw the quote
+    sketch.text(quote.text, 10, 30);
 }
 
 // creating processing sketch for the VJing part
@@ -96,6 +112,7 @@ const s = sketch => {
         let canvas = sketch.createCanvas(canvas_width, canvas_height);
         canvas.parent(canvas_div);
         sketch.stroke(255);
+        sketch.frameRate(1);
     };
 
     sketch.draw = function() {
@@ -108,7 +125,7 @@ const s = sketch => {
         // translate(width / 2, height / 2);
         // background(0);
 
-        draw_words(sketch);
+        load_file("database.json", draw_quote, sketch);
     };
 };
 let myp5 = new p5(s);
