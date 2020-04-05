@@ -49,6 +49,10 @@ function random_quote() {
             canvas.parent(canvas_div);
             sketch.stroke(255);
             sketch.frameRate(4);
+            sketch.textSize(30);
+            sketch.textAlign(sketch.CENTER, sketch.CENTER);
+            sketch.textFont("courier");
+            sketch.fill(255);
         };
 
         sketch.draw = function() {
@@ -69,11 +73,16 @@ function random_quote() {
                 quote = new_quote;
 
                 quote_list = quote.text.split(" "); // split the quote in a list of words
+                quote_list.unshift(" "); // add a whitespace as first element in the quote list
                 word_index = 0; // re-initiate the word count
             }
 
             // diplay the current word
-            sketch.text(quote_list[word_index], 10, 30);
+            sketch.text(
+                quote_list[word_index],
+                sketch.width / 2,
+                sketch.height / 2
+            );
 
             // increase word count
             word_index += 1;
