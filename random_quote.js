@@ -33,6 +33,7 @@ function random_quote() {
     const canvas_height = 300;
     let word_index = 0; // initiate word index
     let quote_list = quote.text.split(" "); // split the quote in a list of words
+    let displayed_word = ""; //initiate displayed word
     const s = sketch => {
         /*
         Function which takes a "sketch" object as argument and attaches properties such as setup and
@@ -48,7 +49,7 @@ function random_quote() {
             let canvas = sketch.createCanvas(canvas_width, canvas_height);
             canvas.parent(canvas_div);
             sketch.stroke(255);
-            sketch.frameRate(4);
+            sketch.frameRate(30);
             sketch.textSize(30);
             sketch.textAlign(sketch.CENTER, sketch.CENTER);
             sketch.textFont("courier");
@@ -60,9 +61,14 @@ function random_quote() {
             Processing main loop function.
             */
 
-            // initialisation
+            // clear background
             sketch.background(0);
 
+            // display current word
+            sketch.text(displayed_word, sketch.width / 2, sketch.height / 2);
+        };
+
+        sketch.mousePressed = function() {
             // find new quote if end of current quote reached
             if (quote_list.length == word_index) {
                 // pick the new quote and avoid picking the same quote
@@ -78,11 +84,7 @@ function random_quote() {
             }
 
             // diplay the current word
-            sketch.text(
-                quote_list[word_index],
-                sketch.width / 2,
-                sketch.height / 2
-            );
+            displayed_word = quote_list[word_index];
 
             // increase word count
             word_index += 1;
