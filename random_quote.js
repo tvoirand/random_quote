@@ -3,6 +3,7 @@ Script for random_quote.
 */
 
 import { xhr_success, xhr_error, load_file } from "./modules/utils.js";
+import { array_average } from "./modules/maths.js";
 
 // load quotes database and fill quote div when page is loaded
 document.getElementById("index_body").onload = load_file(
@@ -31,9 +32,17 @@ function random_quote() {
     // global variables
     const canvas_width = 400;
     const canvas_height = 300;
+
+    // initiate quote related variables
     let word_index = 0; // initiate word index
     let quote_list = quote.text.split(" "); // split the quote in a list of words
     quote_list.unshift(" "); // add a whitespace as first element in the quote list
+
+    // initiate timer related variables
+    let last_click_frame_count = 0;
+    let last_word_frame_count = 0;
+    let clicks_timers = [];
+    let frames_per_beat = 1000;
     const s = sketch => {
         /*
         Function which takes a "sketch" object as argument and attaches properties such as setup and
@@ -64,6 +73,20 @@ function random_quote() {
             // clear background
             sketch.background(0);
 
+            // increase frames counters
+            last_click_frame_count += 1;
+            last_word_frame_count += 1;
+
+            // if frame count since last word reaches frame count per beat, increase word index
+            if (last_word_frame_count >= frames_per_beat) {
+                [word_index, quote_list] = increase_word_index(
+                    word_index,
+                    quote_list,
+                    quotes_array
+                );
+                last_word_frame_count = 0; // reinitiate last_word_frame_count
+            }
+
             // display current word
             sketch.text(
                 quote_list[word_index],
@@ -73,11 +96,25 @@ function random_quote() {
         };
 
         sketch.mousePressed = function() {
+            // increase word index
             [word_index, quote_list] = increase_word_index(
                 word_index,
                 quote_list,
                 quotes_array
             );
+
+            // update clicks_timers
+            clicks_timers.push(last_click_frame_count);
+            if (clicks_timers.length >= 3) {
+                clicks_timers.shift();
+            }
+
+            // compute average frame count per beat (= between clicks)
+            frames_per_beat = Math.floor(array_average(clicks_timers));
+
+            // reinitiate last click and last word frame counters
+            last_click_frame_count = 0;
+            last_word_frame_count = 0;
         };
     };
     let myp5 = new p5(s);
@@ -152,6 +189,9 @@ function increase_word_index(word_index, quote_list, quotes_array) {
         -word_index     int
         -quote_list     [str, ...]
         -quotes_array   [{author: str, book: str, edition: str, page: str, text: str}, ...]
+    Output:
+        -word_index     int
+        -quote_list     [str, ...]
     */
 
     // increase word count
