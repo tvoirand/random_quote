@@ -25,7 +25,7 @@ function random_quote() {
     // fill quote div on html page
     fill_quote_div(quote);
 
-    //---------------------------------------------------------
+    //----------------------------------------------------------
     // creating processing (p5js) sketch for the live quote part
 
     // global variables
@@ -33,7 +33,7 @@ function random_quote() {
     const canvas_height = 300;
     let word_index = 0; // initiate word index
     let quote_list = quote.text.split(" "); // split the quote in a list of words
-    let displayed_word = ""; //initiate displayed word
+    quote_list.unshift(" "); // add a whitespace as first element in the quote list
     const s = sketch => {
         /*
         Function which takes a "sketch" object as argument and attaches properties such as setup and
@@ -65,29 +65,19 @@ function random_quote() {
             sketch.background(0);
 
             // display current word
-            sketch.text(displayed_word, sketch.width / 2, sketch.height / 2);
+            sketch.text(
+                quote_list[word_index],
+                sketch.width / 2,
+                sketch.height / 2
+            );
         };
 
         sketch.mousePressed = function() {
-            // find new quote if end of current quote reached
-            if (quote_list.length == word_index) {
-                // pick the new quote and avoid picking the same quote
-                let new_quote = quote;
-                while (new_quote == quote) {
-                    new_quote = pick_random_quote(quotes_array);
-                }
-                quote = new_quote;
-
-                quote_list = quote.text.split(" "); // split the quote in a list of words
-                quote_list.unshift(" "); // add a whitespace as first element in the quote list
-                word_index = 0; // re-initiate the word count
-            }
-
-            // diplay the current word
-            displayed_word = quote_list[word_index];
-
-            // increase word count
-            word_index += 1;
+            [word_index, quote_list] = increase_word_index(
+                word_index,
+                quote_list,
+                quotes_array
+            );
         };
     };
     let myp5 = new p5(s);
@@ -152,4 +142,34 @@ function pick_random_quote(quotes_array) {
     let id = Math.floor(Math.random() * quotes_array.length);
 
     return quotes_array[id];
+}
+
+function increase_word_index(word_index, quote_list, quotes_array) {
+    /*
+    Increase word index in the current quote_list.
+    Also pick a new random quote_list in the quotes_array if the current quote_list reached end.
+    Input:
+        -word_index     int
+        -quote_list     [str, ...]
+        -quotes_array   [{author: str, book: str, edition: str, page: str, text: str}, ...]
+    */
+
+    // increase word count
+    word_index += 1;
+
+    // find new quote if end of current quote reached
+    if (quote_list.length == word_index) {
+        // pick the new quote and avoid picking the same quote
+        let new_quote_list = quote_list;
+        while (new_quote_list == quote_list) {
+            let new_quote = pick_random_quote(quotes_array);
+            new_quote_list = new_quote.text.split(" "); // split the quote in a list of words
+            new_quote_list.unshift(" "); // add a whitespace as first element in the quote list
+        }
+        quote_list = new_quote_list;
+
+        word_index = 0; // re-initiate the word count
+    }
+
+    return [word_index, quote_list];
 }
