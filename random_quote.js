@@ -32,6 +32,7 @@ function random_quote() {
     // global variables
     const canvas_width = 400;
     const canvas_height = 300;
+    const frame_rate = 30;
 
     // initiate quote related variables
     let word_index = 0; // initiate word index
@@ -58,7 +59,7 @@ function random_quote() {
             let canvas = sketch.createCanvas(canvas_width, canvas_height);
             canvas.parent(canvas_div);
             sketch.stroke(255);
-            sketch.frameRate(30);
+            sketch.frameRate(frame_rate);
             sketch.textSize(30);
             sketch.textAlign(sketch.CENTER, sketch.CENTER);
             sketch.textFont("courier");
@@ -93,9 +94,18 @@ function random_quote() {
                 sketch.width / 2,
                 sketch.height / 2
             );
+
+            // update bpm sllider display
+            document.getElementById("bpm_display").innerHTML =
+                60 * frame_rate / frames_per_beat;
         };
 
-        sketch.mousePressed = function() {
+        // tap tempo button
+        document.getElementById("tap_tempo_button").onclick = function() {
+            /*
+            Tap tempo button onclick function.
+            */
+
             // increase word index
             [word_index, quote_list] = increase_word_index(
                 word_index,
@@ -112,9 +122,42 @@ function random_quote() {
             // compute average frame count per beat (= between clicks)
             frames_per_beat = Math.floor(array_average(clicks_timers));
 
+            // update bpm silder
+            document.getElementById("bpm_slider").value =
+                60 * frame_rate / frames_per_beat;
+            document.getElementById("bpm_display").innerHTML =
+                60 * frame_rate / frames_per_beat;
+
             // reinitiate last click and last word frame counters
             last_click_frame_count = 0;
             last_word_frame_count = 0;
+        };
+
+        // trigger new word button
+        document.getElementById("new_word_button").onclick = function() {
+            /*
+            New word button onclick function.
+            */
+
+            // increase word index
+            [word_index, quote_list] = increase_word_index(
+                word_index,
+                quote_list,
+                quotes_array
+            );
+            // reinitiate last word frame counters
+            last_word_frame_count = 0;
+        };
+
+        // bpm slider
+        document.getElementById("bpm_slider").onclick = function() {
+            /*
+            BPM slider onclick function
+            */
+
+            // get frames_per_beat from silder
+            frames_per_beat =
+                60 * frame_rate / document.getElementById("bpm_slider").value;
         };
     };
     let myp5 = new p5(s);
